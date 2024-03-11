@@ -9,9 +9,7 @@ const numbers = []
 for (i = 0; i < 6; i++) {
     const userNumbers = parseInt(prompt('dimmi un numero'))
 
-    if (userNumbers % 2 === 0) {
-        numbers.push()
-    } else {
+    if (userNumbers % 2 !== 0) {
         numbers.push(userNumbers)
     }
 
