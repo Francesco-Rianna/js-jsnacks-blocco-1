@@ -1,7 +1,9 @@
 // Calcola la somma e la media dei primi 10 numeri. 
+let sum = 0
+for (let i = 1; i <= 10; i++) {
+    sum += i
 
-const sum = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
-console.log(sum)
+}
 
 const mediaSum = sum / 10
 
